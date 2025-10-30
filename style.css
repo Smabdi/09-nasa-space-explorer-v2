@@ -175,6 +175,13 @@ button:hover {
     font-size: 14px;
 }
 
+/* Ensure gallery card text (title, dates, captions) is black in the collapsed state */
+.gallery-item,
+.gallery-item p,
+.gallery-item p strong {
+    color: #000000;
+}
+
 /* Placeholder content */
 .placeholder {
     flex: 1 1 100%;
